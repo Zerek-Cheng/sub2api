@@ -18,6 +18,7 @@ type SystemSettings struct {
 	SMTPFrom               string
 	SMTPFromName           string
 	SMTPUseTLS             bool
+	SMTPSkipTLSVerify      bool
 
 	TurnstileEnabled             bool
 	TurnstileSiteKey             string
